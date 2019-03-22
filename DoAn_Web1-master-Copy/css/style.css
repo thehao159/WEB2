@@ -5,11 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body,
+/*body,
 html {
     min-width: 1024px;
 
-}
+}*/
 
 a {
     text-decoration: none;
@@ -22,10 +22,10 @@ a {
 }
 
 /* căn giữa section, và set độ rộng lớn nhất là 1200px */
-section {
+/*section {
     max-width: 1205px;
     margin: 0 auto;
-}
+}*/
 
 hr {
     color: #ddd;
