@@ -523,9 +523,11 @@ function addTopNav() {
 }
 
 // Thêm header
+
 function addHeader() {
     document.write(`        
 	<div class="header group">
+        <div class="smallmenu" onclick="smallmenu()">≡</div>
         <div class="logo">
             <a href="index.html">
                 <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
@@ -578,6 +580,10 @@ function addHeader() {
             </div><!-- End Tools Member -->
         </div> <!-- End Content -->
     </div> <!-- End Header -->`)
+}
+
+function smallmenu() {
+    document.getElementById('content').style.display = "block";
 }
 
 function addFooter() {

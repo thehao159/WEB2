@@ -17,13 +17,6 @@
     line-height: 40px;
 }
 
-@media only screen and (max-width: 768px){
-    h1, .rating{
-        float: none;
-        width: 100%;
-    }
-}
-
 .fa-star,
 .fa-star-o {
     color: orange;
@@ -378,5 +371,11 @@
         float: none;
         width: 100%;
         margin: 10px 0;
+    }
+    .chitietSanpham h1, .rating{
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding-left: 10px;
     }
 }
